@@ -13,7 +13,7 @@
 
 	<p><b style="font-weight:500">KeyboardGuide</b> was created in 2014 by mechanical keyboard enthusiast John Ankarström, from Sweden.  After having, on multiple occasions, spilled Coca-Cola on his trusty QPAD MK-85, and attaching his broken wrist rest with tape, he started looking for a new keyboard.
 
-	<p>He search the interwebs for a website to guide him through the world of mechanical switches, but alas, none he found.  He decided there needed to be one.  Thus, KeyboardGuide was born.
+	<p>He searched the interwebs for a website to guide him through the world of mechanical switches, but alas, none he found.  He decided there needed to be one.  Thus, KeyboardGuide was born.
 
 	<h3>What is KeyboardGuide?</h3>
 

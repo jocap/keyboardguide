@@ -5,6 +5,7 @@ require 'config.php';
 if (!empty($_POST)) {
 	print '<pre>';
 	print_r($_POST);
+	print '</pre>';
 } else {
 	?>
 <!DOCTYPE html>
@@ -16,7 +17,7 @@ if (!empty($_POST)) {
 </head>
 <body class="page">
 	<h1><a href="<?=url()?>"></a>Add Keyboard</h1>
-	<form action="." method="post" autocomplete="off">
+	<form action="<?=requri?>" method="post" autocomplete="off">
 		<table>
 			<tr>
 				<td>Name</td>
@@ -47,17 +48,20 @@ if (!empty($_POST)) {
 					<option value="cherry-mx-green">Cherry MX Green</option>
 					<option value="cherry-mx-brown">Cherry MX Brown</option>
 					<option value="cherry-mx-clear">Cherry MX Clear</option>
-					<option value="cherry-mx-red">Alps</option>
-					<option value="cherry-mx-bs">Buckling Spring</option>
+					<option value="topre">Topre</option>
+					<option value="bs">Buckling Spring</option>
+					<option value="alps">Alps</option>
+					<option value="matias-click">Matias</option>
 					<option value="other">Other (specify in Additional Info)</option>
 				</select></td>
 			</tr>
 			<tr>
-				<td>Numpad</td>
-				<td><select name="numpad">
-					<option value="yes">Yes</option>
-					<option value="no">No</option>
-				</select></td>
+				<td>Keywords</td>
+				<td style="font-size:smaller">
+						<label><input type="checkbox" name="key-tenkeyless">Tenkeyless</label>
+					<br><label><input type="checkbox" name="key-ergonomical">Ergonomical</label>
+					<br><label><input type="checkbox" name="key-silent">Silent</label>
+				</small></td>
 			</tr>
 			<tr>
 				<td>Additional<br>information</td>
