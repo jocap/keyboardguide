@@ -14,6 +14,20 @@ See the [reddit thread](http://www.reddit.com/r/MechanicalKeyboards/comments/24g
 
 &ndash; jocap
 
+## Hosting
+
+> Where are you planning to set this up?
+
+> I'm decent with PHP, and I'll fork/star your repo. Shoot me a message anywhere if you'd like advice.
+
+&ndash; johnfonte
+
+>> I have a Webfaction account where I could host it. It should do fine in the beginning. **Edit:** Heroku just extended their PHP support. That's a good alternative, seeing as how it's tightly integrated with Git.
+
+>> **Update:** Just published the current state of the repository at [http://keyboard.fictional.in/](http://keyboard.fictional.in/) (temporary address, of course, a subdomain of my website).
+
+&ndash; jocap
+
 ## Why PHP?
 
 > I don't see why anyone would EVER use plain PHP. It's like programming a self-driving car in assembly. Use something more civilised like Node.js, Django, Flask or even Rails!

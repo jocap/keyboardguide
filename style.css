@@ -5,14 +5,14 @@ html {
 }
 
 body {
-	width: 480pt;
+	width: 640px;
 	margin: 0 auto;
-	font-size: 12pt;
+	font-size: 16px;
 	line-height: 1.5;
 	background: white;
-	padding: 24pt;
+	padding: 32px;
 	color: #111;
-	-webkit-box-shadow: 0 0 10px #ccc;
+	box-shadow: 0 0 10px #ccc;
 }
 
 * {
@@ -57,6 +57,29 @@ body.page > h1:first-of-type a:after {
 }
 body.page > h1:first-of-type a:hover:before, body.page > h1:first-of-type a:focus:before {
 	color: #55abad;
+}
+
+nav {
+	background: #404080;
+	padding: 1px 0;
+}
+
+nav a {
+	color: white;
+	text-shadow: none;
+	padding: 10px 7.5px;
+	display: inline-block;
+	background-image: none;
+	transition: background 200ms ease;
+}
+
+nav a:first-of-type {
+	padding-left: 12.5px;
+}
+
+nav a:hover, nav a:focus {
+	color: white;
+	background: #323269;
 }
 
 /* Link code courtesy of Gary Hepting -- thanks! */
