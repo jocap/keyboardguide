@@ -23,11 +23,11 @@
 
 	<h3>GitHub Repository</h3>
 
-	<p>KeyboardGuide is open source!  You&rsquo;ll find the <a href="https://github.com/jocap/keyboardguide">repository on GitHub</a>.
+	<p>KeyboardGuide is open source!  You&rsquo;ll find the <a href="https://github.com/jocap/keyboardguide">repository on GitHub</a>.  We need your help to make KG a reality.  Clone the repo and contribute, create new issues, and suggest changes!
 
 	<h3>Contact</h3>
 
-	<p>For questions or minor suggestions, e-mail me at <script type="text/javascript">
+	<p>For questions or minor suggestions, e-mail <script type="text/javascript">
 //<![CDATA[
 <!--
 var x="function f(x,y){var i,o=\"\",l=x.length;for(i=0;i<l;i++){y%=127;o+=St" +
@@ -49,7 +49,7 @@ var x="function f(x,y){var i,o=\"\",l=x.length;for(i=0;i<l;i++){y%=127;o+=St" +
 while(x=eval(x));
 //-->
 //]]>
-</script> and I&rsquo;ll get back to you.
+</script> and he&rsquo;ll get back to you.  Check out the GitHub repository if you have major suggestions or additions.
 
 </body>
 </html>
