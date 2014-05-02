@@ -1,10 +1,10 @@
 **KeyboardGuide** is a website in the works, designed to help people decide what mechanical keyboard they should buy, based on their preferred switch, number of keys etc.  It's going to be a collaborative website, where users can add new keyboards (via the `add.php` form).
 
-See the [reddit thread](http://www.reddit.com/r/MechanicalKeyboards/comments/24g6q5/) for discussion.  All quotations below are from that thread.
-
 # Discussion
 
-## The Point of the Website (2014-05-01)
+See the [reddit thread](http://www.reddit.com/r/MechanicalKeyboards/comments/24g6q5/) for discussion.  All quotations below are from that thread.  GitHub usernames are preceded by an @ symbol, the other usernames are from reddit.
+
+## The Point of the Website (2014-04-01)
 
 RaVNzCRoFT:
 
@@ -18,7 +18,7 @@ jocap:
 
 **Summary:**
 
-## Hosting (2014-05-01)
+## Hosting (2014-04-01)
 
 johnfonte:
 
@@ -110,9 +110,9 @@ jocap:
 
 ***
 
-**Summary:** Using a framework instead of plain PHP was suggested and accepted.  KeyboardGuide will be migrated to Zend Framework 2, which was chosen because HalfCent used it.
+**Summary:** Using a framework instead of plain PHP was suggested and accepted.  KeyboardGuide will be migrated by HalfCent to Zend Framework 2, which was chosen because HalfCent used it.
 
-## API (2014-05-01)
+## API (2014-04-01)
 
 > Bravo, crowd sourcing this sort of information could make things easier for people trying to get their feet wet. Imagine a Bot that could access the information in KeyboardGuide and spit out answers in threads or the IRC channel.
 
@@ -125,6 +125,21 @@ jocap:
 ***
 
 **Summary:** API added as a planned feature.
+
+## Data Collection (2014-05-02)
+
+matt3o:
+
+> just wanted to let you know that a similar project is about to be released under the kbdb.io domain. If you are interested in collaborating with it please get in contact (it's an open source, community based project)
+
+jocap:
+
+>> Oh, I wasn't aware of that. There doesn't seem to be much information on it online. Where can I learn more?
+>> **Update:** I found the deskthority thread and it seems as though it's been dead for almost a year, but maybe I'm mistaken. If it is in fact going to happen, it seems to be more of a database of keyboards, which we certainly could take advantage of -- it would practically eliminate the need for an Add Keyboard section.
+
+***
+
+**Summary:** There appears to be a similar project, [kbdb.io](http://kbdb.io), more oriented to data collection and creating a database of different keyboards (see [deskthority thread](http://deskthority.net/keyboards-f2/kbdb-t6205.html)).  However, the last post on said thread was posted in August 2013, so there is a possibility the project is dead.  If it does launch, KeyboardGuide could plug into their database and the need for our own Add Keyboard section and API would practically be eliminated.
 
 # Screenshots (as of commit `d8e01e73b1`)
 
