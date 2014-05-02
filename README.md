@@ -4,7 +4,7 @@
 
 See the [reddit thread](http://www.reddit.com/r/MechanicalKeyboards/comments/24g6q5/) for discussion.  All quotations below are from that thread.  GitHub usernames are preceded by an @ symbol, the other usernames are from reddit.
 
-## The Point of the Website (2014-04-01)
+## The Point of the Website (2014-04-30)
 
 RaVNzCRoFT:
 
@@ -18,7 +18,7 @@ jocap:
 
 **Summary:**
 
-## Hosting (2014-04-01)
+## Hosting (2014-04-30)
 
 johnfonte:
 
@@ -112,7 +112,7 @@ jocap:
 
 **Summary:** Using a framework instead of plain PHP was suggested and accepted.  KeyboardGuide will be migrated by HalfCent to Zend Framework 2, which was chosen because HalfCent used it.
 
-## API (2014-04-01)
+## API (2014-04-30)
 
 > Bravo, crowd sourcing this sort of information could make things easier for people trying to get their feet wet. Imagine a Bot that could access the information in KeyboardGuide and spit out answers in threads or the IRC channel.
 
@@ -141,7 +141,7 @@ jocap:
 
 **Summary:** There appears to be a similar project, [kbdb.io](http://kbdb.io), more oriented to data collection and creating a database of different keyboards (see [deskthority thread](http://deskthority.net/keyboards-f2/kbdb-t6205.html)).  However, the last post on said thread was posted in August 2013, so there is a possibility the project is dead.  If it does launch, KeyboardGuide could plug into their database and the need for our own Add Keyboard section and API would practically be eliminated.
 
-# Screenshots (as of commit `d8e01e73b1`)
+# Screenshots (as of commit d8e01e73b1)
 
 ![Add Keyboard](http://i.imgur.com/R7JUVbv.png)
 
